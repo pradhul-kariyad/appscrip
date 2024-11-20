@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'package:appscrip/models/userModel.dart';
 import 'package:appscrip/provider/userDataProvider/userService.dart';
 import 'package:flutter/material.dart';
@@ -16,10 +17,10 @@ class UserDataProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      userList = await UserService().getAll(); // Fetch all users
-      filteredUserList = List.from(userList); // Initially show all users
+      userList = await UserService().getAll(); 
+      filteredUserList = List.from(userList);
     } catch (e) {
-      print('Error fetching user list: $e');
+      log('Error fetching user list: $e');
       userList = [];
       filteredUserList = [];
     }

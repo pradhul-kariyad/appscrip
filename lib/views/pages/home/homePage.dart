@@ -1,4 +1,5 @@
 // ignore_for_file: file_names, unused_import, avoid_print
+import 'dart:developer';
 import 'package:appscrip/colors/colors.dart';
 import 'package:appscrip/provider/userDataProvider/userDataProvider.dart';
 import 'package:appscrip/views/widgets/homeWidgets/homeContainer/homeContainer.dart';
@@ -30,7 +31,7 @@ class HomePage extends StatelessWidget {
         ),
         leading: IconButton(
             onPressed: () {
-              print('arrow_back');
+              log('arrow_back');
             },
             icon: Icon(
               Icons.arrow_back,
@@ -40,7 +41,7 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
               onPressed: () {
-                print('notifications_none_sharp');
+                log('notifications_none_sharp');
               },
               icon: Icon(
                 Icons.notifications_none_sharp,

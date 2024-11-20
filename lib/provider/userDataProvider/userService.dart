@@ -12,6 +12,7 @@ class UserService {
     );
 
     if (response.statusCode == 200) {
+      log('body : ${response.body}');
       try {
         final List<dynamic> data = json.decode(response.body);
         return data.map((json) => UserModel.fromJson(json)).toList();

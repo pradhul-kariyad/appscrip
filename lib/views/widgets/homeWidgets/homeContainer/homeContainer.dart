@@ -159,7 +159,7 @@ class HomeContainer extends StatelessWidget {
                             ),
                             SizedBox(width: 5.w),
                             Text(
-                              user.website ?? 'City not available',
+                              user.website ?? 'website not available',
                               style: TextStyle(
                                 color: fontColor,
                                 fontFamily: 'Poppins',

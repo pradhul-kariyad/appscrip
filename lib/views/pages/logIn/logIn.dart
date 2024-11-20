@@ -1,4 +1,5 @@
 // ignore_for_file: file_names, unused_import, avoid_print, no_leading_underscores_for_local_identifiers, use_build_context_synchronously
+import 'dart:developer';
 import 'package:appscrip/colors/colors.dart';
 import 'package:appscrip/views/pages/home/homePage.dart';
 import 'package:appscrip/views/widgets/myButton/myButton.dart';
@@ -180,7 +181,7 @@ class _LogInState extends State<LogIn> {
             ),
           ),
         );
-        print('Login successful');
+        log('Login successful');
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -194,7 +195,7 @@ class _LogInState extends State<LogIn> {
             ),
           ),
         );
-        print('Login failed');
+        log('Login failed');
       }
     }
   }
