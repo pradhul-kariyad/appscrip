@@ -1,7 +1,7 @@
 // ignore_for_file: unused_import
 import 'package:appscrip/provider/home_date_provider/home_date_provider.dart';
 import 'package:appscrip/provider/home_row_provider/home_row_provider.dart';
-import 'package:appscrip/provider/userDataProvider/userDataProvider.dart';
+import 'package:appscrip/provider/user_data_provider/userDataProvider.dart';
 import 'package:appscrip/views/pages/home/homePage.dart';
 import 'package:appscrip/views/pages/logIn/logIn.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'package:appscrip/models/userModel.dart';
-import 'package:appscrip/provider/userDataProvider/userService.dart';
+import 'package:appscrip/provider/user_data_provider/userService.dart';
 import 'package:flutter/material.dart';
 
 class UserDataProvider extends ChangeNotifier {
