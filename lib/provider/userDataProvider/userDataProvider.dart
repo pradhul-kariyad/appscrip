@@ -17,7 +17,7 @@ class UserDataProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      userList = await UserService().getAll(); 
+      userList = await UserService().getAll();
       filteredUserList = List.from(userList);
     } catch (e) {
       log('Error fetching user list: $e');

@@ -25,11 +25,10 @@ class HomeContainer extends StatelessWidget {
             child: Text(
               "No users found",
               style: TextStyle(
-                color: blue,
-                fontFamily: 'Poppins',
-                fontSize: 12.sp,
-                fontWeight: FontWeight.bold
-              ),
+                  color: blue,
+                  fontFamily: 'Poppins',
+                  fontSize: 12.sp,
+                  fontWeight: FontWeight.bold),
             ),
           );
         }

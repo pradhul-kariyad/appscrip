@@ -1,6 +1,6 @@
 // ignore_for_file: use_build_context_synchronously, file_names
 import 'package:appscrip/colors/colors.dart';
-import 'package:appscrip/provider/homeDateProvider/homeDateProvider.dart';
+import 'package:appscrip/provider/homeDateProvider/home_date_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
