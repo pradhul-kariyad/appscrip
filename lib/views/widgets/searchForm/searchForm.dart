@@ -1,5 +1,5 @@
 import 'package:appscrip/colors/colors.dart';
-import 'package:appscrip/provider/user_data_provider/userDataProvider.dart';
+import 'package:appscrip/provider/user_data_provider/user_data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';

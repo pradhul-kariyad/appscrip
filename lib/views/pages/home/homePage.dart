@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, unused_import, avoid_print
 import 'dart:developer';
 import 'package:appscrip/colors/colors.dart';
-import 'package:appscrip/provider/user_data_provider/userDataProvider.dart';
+import 'package:appscrip/provider/user_data_provider/user_data_provider.dart';
 import 'package:appscrip/views/widgets/homeWidgets/homeContainer/homeContainer.dart';
 import 'package:appscrip/views/widgets/homeWidgets/homeDate/homeDate.dart';
 import 'package:appscrip/views/widgets/myButton/myButton.dart';
